@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+  }
+  
+  .Daniel_Clifford {
+    border-radius: 8px;
+    background: #733fc8;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    width: 540px;
+    height: 282px;
+    flex-shrink: 0;
+  }
+  .Jonathan_Walters {
+    width: 255px;
+    height: 282px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #48556a;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  }
+  .Kira_Whittle {
+    width: 255px;
+    height: 572px;
+    flex-shrink: 0;
+    border-radius: 8px;
+  }
+  
+  .Jeanette_Harmon {
+    width: 255px;
+    height: 266px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  }
+  .Patrick_Abrams {
+    width: 540px;
+    height: 266px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #19202d;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  }
+  
+  .gridContainer {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+  
+  .box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #733fc8;
+    border-radius: 8px;
+  }
+  
+  .box2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #48556a;
+    border-radius: 8px;
+    background: #48556a;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  }
+  
+  .box3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .box4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .box5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #19202d;
+    border-radius: 8px;
+  }
+  
+  .mainDaniel {
+    display: flex;
+    gap: 5px;
+    padding: 15px;
+  }
+  
+  .name1 {
+    color: #fff;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+  }
+  
+  #verifiedGraduate {
+    color: #fff;
+    font-family: "Barlow Semi Condensed";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11px; /* 100% */
+    opacity: 0.5;
+  }
+  
+  .danielText1 {
+    color: #fff;
+    font-family: "Barlow Semi Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px;
+    width: 476px;
+  }
+  
+  .danielText2 {
+    color: #cfcfcf;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 138.462% */
+    opacity: 0.7;
+    padding: 15px;
+    width: 476px;
+  }
+  
+  .mainJonathan {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+  }
+  
+  .name2 {
+    color: #fff;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+  }
+  
+  .jonathanText1 {
+    color: #fff;
+    font-family: "Barlow Semi Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px;
+  }
+  
+  .jonathanText2 {
+    color: #fff;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 138.462% */
+    opacity: 0.7;
+    padding: 15px;
+  }
+  
+  .mainKira {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+  }
+  
+  .name3 {
+    color: #48556a;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+  }
+  
+  .kiraText1 {
+    color: #48556a;
+    font-family: "Barlow Semi Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px;
+  }
+  
+  .kiraText2 {
+    color: #48556a;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 138.462% */
+    opacity: 0.7;
+    padding: 15px;
+    width: 191px;
+  }
+  
+  .mainJeanette {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+  }
+  
+  .name4 {
+    color: #48556a;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+  }
+  
+  .jeanetteText1 {
+    color: #48556a;
+    font-family: "Barlow Semi Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px;
+  }
+  
+  .jeanetteText2 {
+    color: #48556a;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 138.462% */
+    opacity: 0.7;
+    padding: 15px;
+  }
+  
+  .mainPatric {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+  }
+  
+  .name5 {
+    color: #fff;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+    margin: 5px;
+  }
+  
+  .patricText1 {
+    padding: 15px;
+    color: #ecf2f8;
+    font-family: "Barlow Semi Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .patricText2 {
+    color: #fff;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 138.462% */
+    padding: 15px;
+  }
+  
